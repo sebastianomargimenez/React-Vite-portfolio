@@ -1,6 +1,6 @@
 html{
     scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 *{
@@ -8,6 +8,7 @@ html{
     padding: 0;
     box-sizing: border-box;
     font-family: "DM Sans", sans-serif;
+    
 }
 
 body{
@@ -15,7 +16,14 @@ body{
     color: lightgray;
 }
 
-section{
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+section {
     height: 100vh;
+
     scroll-snap-align: center;
+    overflow: hidden;
 }
